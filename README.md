@@ -21,6 +21,22 @@ This project is not affiliated with Slack at all. This is a hobby project theref
 So far this is the only method that works on latest version (4.0+). Follow instructions in the repository readme.
 Replace the `dark-theme.css` file with the one provided in this (slack-4-dark-css) repository.
 
+### Step-by-step instructions for non-developers (macOS):
+1. Make sure to have a clean installation of Slack from App Store (Open Slack > About Slack > check `Version 4.0.1 (App Store)`)
+1. Download patcher ZIP file by [LanikSJ](https://github.com/LanikSJ/slack-dark-mode), extract to desktop - [Download](https://github.com/LanikSJ/slack-dark-mode/archive/master.zip)
+1. Download latest CSS file and save to Desktop/slack-dark-mode (overwrite existing file) - [Download](https://raw.githubusercontent.com/zvuc/slack-4-dark-css/master/dark-theme.css) 
+1. Open Terminal.app
+1. Install Xcode command line tools - `xcode-select --install`
+1. Install nvm - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash`
+1. Reload terminal - `source ~/.bash_profile`
+1. Install node - `nvm install stable`
+1. Navigate to folder in terminal - `cd ~/Desktop/slack-dark-mode`
+1. Edit permissions for script to run - `chmod +x ./slack-dark-mode.sh`
+1. Run patcher script -  `./slack-dark-mode.sh`
+1. Refresh Slack app (Cmd+R) or restart
+
+If there is an easier way to patch stylesheet without having to install all the developer dependencies (NodeJS), please let me know.
+
 ### Using in browser
 Use your favorite userstyle extension on your browser to override default stylesheet. Create a new userstyle to target your Slack app domain (https://app.slack.com/), then copy-paste the CSS file contents to apply.
 

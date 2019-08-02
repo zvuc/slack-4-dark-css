@@ -96,6 +96,8 @@
 @ui-emoji-picker-highlight-5: fadeout(@navajo-white,50%);
 @ui-emoji-picker-highlight-6: fadeout(@fog,50%);
 
+@ui-download-item-text: @ui-text;
+
 
 // graytone
 @white: #ffffff;
@@ -7910,7 +7912,7 @@ input[type=text].c-input_text.p-emoji_picker__input:focus {
  font-size:13px;
  line-height:1.38463;
  font-weight:400;
- color:fade(@ui-text,50%);
+ color:fade(@ui-tooltip-text,50%);
  margin-left:.25rem;
  line-height:0;
  white-space:nowrap
@@ -7927,7 +7929,7 @@ input[type=text].c-input_text.p-emoji_picker__input:focus {
 .c-unified_member--dark .c-unified_member__not-in-channel-context--small,
 .c-unified_member--dark .c-unified_member__secondary-name,
 .c-unified_member--dark .presence {
- color:@ui-text
+ color:@ui-tooltip-text
 }
 .c-unified_member--dark .team_image {
  margin-left:10px
@@ -16318,7 +16320,7 @@ input[type=text].p-prefs_modal__email_forwarding_address_input {
  min-width:200px;
  max-width:600px;
  background:@ui-base;
- border:1px solid fade(@ui-text,10%);
+ border:1px solid fade(@ui-text,30%);
  border-radius:4px;
  overflow:hidden;
  transition-duration:.1s;
@@ -16331,8 +16333,8 @@ input[type=text].p-prefs_modal__email_forwarding_address_input {
 }
 .c-pillow_file_container.c-pillow_file_container--focus-within,
 .c-pillow_file_container:hover {
- border-color:fade(@ui-text,15%);
- box-shadow:0 1px 1px fade(@ui-text,6%)
+ border-color:fade(@ui-text,35%);
+ box-shadow:0 1px 1px fade(@ui-text,16%)
 }
 .c-pillow_file_container.c-pillow_file_container--focus-within .c-file__actions,
 .c-pillow_file_container:hover .c-file__actions {
@@ -18301,7 +18303,8 @@ span.CodeMirror-selectedtext {
  flex-shrink:0;
  width:4px;
  background-color:@ui-message-attachment-border;
- border-radius:8px
+ border-radius:8px;
+ filter: invert(100%) hue-rotate(180deg);
 }
 .c-message_attachment__delete_container {
  position:absolute;
@@ -30457,13 +30460,13 @@ input[type=text].p-channel_sidebar__folder_heading_label_rename {
  background-image:url(https://a.slack-edge.com/9ed76/img/message_list_placeholders_light.svg);
  height:2097px;
  margin-left:19px;
- filter: invert(30%)
+ filter: invert(70%)
 }
 .c-message_list__placeholders--dense {
  background-image:url(https://a.slack-edge.com/c7007/img/message_list_placeholders_dense.svg);
  height:1812px;
  margin-left:19px;
- filter: invert(30%)
+ filter: invert(70%)
 }
 .c-message_list__placeholders--legacy.c-message_list__placeholders--light {
  margin-left:25px
@@ -33808,7 +33811,7 @@ span.p-app_action_picker__placeholder {
  display:flex;
  justify-content:space-between;
  line-height:normal;
- color:@tundora;
+ color:@ui-download-item-text;
  position:relative;
  padding-right:0;
  margin-bottom:0

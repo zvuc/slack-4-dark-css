@@ -5057,7 +5057,7 @@ textarea.c-input_textarea--with_inline_alerttextarea.c-input_textarea--with_erro
   font-weight: 400;
   background: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
-  color: #ffffff;
+  color: #000000;
   left: 50%;
   opacity: 0;
   padding: 4px 8px;
@@ -12703,7 +12703,7 @@ input[type=radio].c-input_radio:focus {
   margin-bottom: 0;
 }
 .p-message_pane_input_broadcast_warning__overlay {
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 .p-message_pane_input_broadcast_warning {
   width: 560px;
@@ -22029,7 +22029,7 @@ body.p-client_desktop--frameless:not(.p-client_desktop--no-frameless-drag):after
 .p-member_profile_restriction {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.9);
-  color: #ffffff;
+  color: #000000;
   display: flex;
   height: 36px;
   padding: 8px 16px;

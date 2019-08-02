@@ -21,7 +21,7 @@ a {
 a:active,
 a:focus,
 a:hover {
-  color: #1264a3;
+  color: #50acf4;
   text-decoration: underline;
 }
 h1 {
@@ -6407,7 +6407,7 @@ input[type=checkbox].c-input_checkbox:focus {
   color: rgba(255, 255, 255, 0.7);
 }
 .p-customize_emoji_list__download_btn .p-customize_emoji_list__icon:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-customize_emoji_list__no_matches {
   text-align: center;
@@ -7654,7 +7654,7 @@ input[type=text].c-input_text.p-emoji_picker__input:focus {
   font-size: 13px;
   line-height: 1.38463;
   font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
   margin-left: 0.25rem;
   line-height: 0;
   white-space: nowrap;
@@ -7672,6 +7672,9 @@ input[type=text].c-input_text.p-emoji_picker__input:focus {
 .c-unified_member--dark .c-unified_member__secondary-name,
 .c-unified_member--dark .presence {
   color: #000000;
+}
+.c-unified_member--dark .c-unified_member__not-in-channel-context--small {
+  color: #ffffff;
 }
 .c-unified_member--dark .team_image {
   margin-left: 10px;
@@ -13906,7 +13909,7 @@ input[type=text].c-lazy_filter_select__input.c-input_text:focus {
 }
 .c-date_range_picker_calendar__date--select_range_end:hover,
 .c-date_range_picker_calendar__date--select_range_start:hover {
-  background-color: #1264a3;
+  background-color: #50acf4;
 }
 .c-date_range_picker_calendar__date--in_selected_range {
   background-color: rgba(29, 155, 209, 0.2);
@@ -14636,7 +14639,7 @@ input[type=text].c-lazy_filter_select__input.c-input_text:focus {
 }
 .p-connected_workspaces_row__actions .active,
 .p-connected_workspaces_row__actions:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-stop_sharing_modal__title {
   padding-top: 20px;
@@ -16428,7 +16431,7 @@ body.p-client_desktop--frameless .p-file_viewer__header button {
   margin: 0 8px;
 }
 .p-file_viewer__header__button:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-zoom {
   display: flex;
@@ -17921,7 +17924,7 @@ span.CodeMirror-selectedtext {
 .c-message_kit__file__meta__attribution__link:active,
 .c-message_kit__file__meta__attribution__link:focus,
 .c-message_kit__file__meta__attribution__link:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .c-message_kit__file__meta__separator {
   color: rgba(255, 255, 255, 0.33);
@@ -27001,7 +27004,7 @@ a.c-search_message__replies_count {
 }
 .p-global_nav__channel_date_picker_back:focus,
 .p-global_nav__channel_date_picker_back:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-global_nav__unread_refresh {
   margin-left: 12px;
@@ -28646,7 +28649,7 @@ a.p-global_nav__flex_btn--link:hover {
   border-radius: 4px;
 }
 .p-classic_nav__model__button:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-classic_nav__model__button--active {
   background: rgba(255, 255, 255, 0.18);
@@ -28674,7 +28677,7 @@ a.p-global_nav__flex_btn--link:hover {
 }
 .p-classic_nav__model__menu__jump__back:focus,
 .p-classic_nav__model__menu__jump__back:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-shortcuts_dialog.c-dialog__content {
   width: 480px;
@@ -28950,7 +28953,7 @@ a.p-global_nav__flex_btn--link:hover {
   position: relative;
 }
 .p-classic_nav__right__button--flexpanes:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-classic_nav__right__button--flexpanes-help-count {
   padding-right: 12px;
@@ -29102,7 +29105,7 @@ a.p-global_nav__flex_btn--link:hover {
 }
 .p-classic_nav__right__button--search_small_highlighted,
 .p-classic_nav__right__button--search_small_highlighted:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-classic_nav__right__button--search_small_highlighted:before {
   background: #0e2b36;
@@ -29244,7 +29247,7 @@ a.p-global_nav__flex_btn--link:hover {
   color: rgba(255, 255, 255, 0.7);
 }
 .p-quick_switcher__show_deactivated:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-quick_switcher__empty_results_container {
   display: flex;
@@ -30555,13 +30558,24 @@ input[type=text].p-channel_sidebar__folder_heading_label_rename {
   text-align: center;
 }
 .p-message_pane__limited_history_foreword {
+  position: relative;
   text-align: center;
   padding: 24px 24px 32px 24px;
   color: #ffffff;
-  background-image: url(https://a.slack-edge.com/436da/img/wave.jpg);
-  background-position: 0 100%;
-  background-repeat: repeat-x;
+  background-image: none;
   background-color: #343434;
+}
+.p-message_pane__limited_history_foreword:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15px;
+  background-image: linear-gradient(0deg, transparent 15px, #000000 15px), linear-gradient(-135deg, transparent 11px, #000000 11px), linear-gradient(135deg, transparent 11px, #000000 11px);
+  background-position: 0 100%;
+  background-size: 100% 100%,15px 15px,15px 15px;
+  background-repeat: repeat-x;
 }
 .p-message_pane__limited_history_foreword_headline {
   font-size: 18px;
@@ -32847,7 +32861,7 @@ span.p-app_action_picker__placeholder {
   color: #ffffff;
 }
 .p-threads_flexpane__header .p-threads_flexpane__header_back:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-threads_flexpane__header_permalink:focus,
 .p-threads_flexpane__header_permalink:hover {
@@ -33688,7 +33702,7 @@ span.p-app_action_picker__placeholder {
   font-weight: 400;
 }
 .p-downloads__clear_all:hover {
-  color: #1264a3;
+  color: #50acf4;
 }
 .p-client,
 body,

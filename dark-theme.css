@@ -31881,7 +31881,7 @@ span.p-app_action_picker__placeholder {
   background: #000000;
   border-radius: 4px;
   border-width: 1px;
-  border-color: #8F8F8F;
+  border-color: #474747;
   min-height: 42px;
   min-width: 1px;
   padding-left: 10px;
@@ -31916,10 +31916,10 @@ span.p-app_action_picker__placeholder {
   bottom: 10px;
 }
 .p-threads_footer__input .p-message_input_field.focus {
-  border-color: #C6C6C6;
+  border-color: #656565;
 }
 .p-threads_footer__input .p-message_input_field.focus ~ .p-message_input_file_button:not(:hover) {
-  border-color: #C6C6C6;
+  border-color: #656565;
   color: #C6C6C6;
 }
 .p-threads_footer__input .p-message_input_field .ql-placeholder {

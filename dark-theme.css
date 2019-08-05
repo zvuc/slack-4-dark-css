@@ -7704,27 +7704,27 @@ body.desktop .p-emoji_picker {
 }
 .p-emoji_picker__list_item[data-color-index="0"].key_selection,
 .p-emoji_picker__list_item[data-color-index="0"]:hover {
-  background: rgba(183, 232, 135, 0.5);
+  background: #51584b;
 }
 .p-emoji_picker__list_item[data-color-index="1"].key_selection,
 .p-emoji_picker__list_item[data-color-index="1"]:hover {
-  background: rgba(181, 224, 254, 0.5);
+  background: #487b9f;
 }
 .p-emoji_picker__list_item[data-color-index="2"].key_selection,
 .p-emoji_picker__list_item[data-color-index="2"]:hover {
-  background: rgba(249, 239, 103, 0.5);
+  background: #625f32;
 }
 .p-emoji_picker__list_item[data-color-index="3"].key_selection,
 .p-emoji_picker__list_item[data-color-index="3"]:hover {
-  background: rgba(243, 193, 253, 0.5);
+  background: #9450a2;
 }
 .p-emoji_picker__list_item[data-color-index="4"].key_selection,
 .p-emoji_picker__list_item[data-color-index="4"]:hover {
-  background: rgba(255, 225, 174, 0.5);
+  background: #9d7c44;
 }
 .p-emoji_picker__list_item[data-color-index="5"].key_selection,
 .p-emoji_picker__list_item[data-color-index="5"]:hover {
-  background: rgba(224, 223, 255, 0.5);
+  background: #5d5ab8;
 }
 .p-emoji_picker__list_item .emoji-sizer {
   line-height: 20px;

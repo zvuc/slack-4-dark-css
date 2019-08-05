@@ -5656,7 +5656,7 @@ textarea.c-input_textarea--with_inline_alerttextarea.c-input_textarea--with_erro
 .no_touch a.c-menu_item__button--highlighted,
 .no_touch a.c-menu_item__button--highlighted:link,
 .no_touch a.c-menu_item__button--highlighted:visited {
-  background-color: #50acf4;
+  background-color: #3aa3e3;
   color: #ffffff;
   text-decoration: none;
 }
@@ -12732,7 +12732,7 @@ input[type=radio].c-input_radio:focus {
   position: absolute;
 }
 .c-toggle__input:checked + .c-toggle__visual:after {
-  background-color: #000000;
+  background-color: #ffffff;
   transform: translate3d(22px, 0, 0);
 }
 .c-toggle__input:focus {
@@ -18881,7 +18881,7 @@ span.CodeMirror-selectedtext {
   width: 4px;
   background-color: #474747;
   border-radius: 8px;
-  filter: invert(100%) hue-rotate(180deg);
+  filter: invert(100%) hue-rotate(180deg) brightness(80%);
 }
 .c-message_attachment__delete_container {
   position: absolute;
@@ -19468,7 +19468,7 @@ span.CodeMirror-selectedtext {
 }
 .c-reaction:hover {
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5);
-  background: #000000;
+  background: #565656;
 }
 .c-reaction:active {
   transform: scale(0.94);

@@ -16811,7 +16811,7 @@ input[type=text].p-prefs_modal__email_forwarding_address_input {
 }
 .c-file__media--video {
   height: 320px;
-  background: #ffffff;
+  background: #000000;
   display: block;
   width: 100%;
 }
@@ -17101,7 +17101,7 @@ input[type=text].p-prefs_modal__email_forwarding_address_input {
   display: block;
   width: 100%;
   height: 320px;
-  background: #ffffff;
+  background: #000000;
 }
 .c-pillow_file__video_container {
   margin-top: 12px;
@@ -17123,7 +17123,7 @@ input[type=text].p-prefs_modal__email_forwarding_address_input {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 .c-pillow_file__video__placeholder_button {
   padding: 20px 19px 20px 21px;

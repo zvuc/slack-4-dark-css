@@ -28805,8 +28805,11 @@ a.p-global_nav__flex_btn--link:hover {
 }
 .p-message_container_loading:before {
   content: "";
-  width: 200px;
-  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   background-image: url(https://a.slack-edge.com/d5d4a/img/unread/uv-loader@2x.gif);
   background-size: 200px 200px;
   background-repeat: no-repeat;
@@ -28815,6 +28818,7 @@ a.p-global_nav__flex_btn--link:hover {
   filter: invert(1);
 }
 .p-message_container_loading__msg {
+  position: relative;
   text-align: center;
   height: 220px;
   color: #B8B8B8;

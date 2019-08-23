@@ -1,27 +1,9 @@
-:root {
- --sk_primary_foreground:209,210,211;
- --sk_primary_background:26,29,33;
- --sk_inverted_foreground:26,29,33;
- --sk_inverted_background:209,210,211;
- --sk_foreground_max:232,232,232;
- --sk_foreground_high:232,232,232;
- --sk_foreground_low:232,232,232;
- --sk_foreground_min:232,232,232;
- --sk_foreground_max_solid:171,171,173;
- --sk_foreground_high_solid:129,131,133;
- --sk_foreground_low_solid:53,55,59;
- --sk_foreground_min_solid:34,37,41;
- --sk_highlight:29,155,209;
- --sk_highlight_hover:29,155,209;
- --sk_highlight_accent:29,155,209;
- --sk_secondary_highlight:242,199,68
-}
 /* message placeholders */
 .c-message_list__placeholders--light {
- filter: invert(60%)
+ filter: invert(70%)
 }
 .c-message_list__placeholders--dense {
- filter: invert(60%)
+ filter: invert(70%)
 }
 
 /* override for message loading animation */
@@ -50,6 +32,7 @@
  background-position:50%;
  -webkit-filter:invert(1);
  filter:invert(1);
+ mix-blend-mode: screen;
 }
 
 /* limited history foreword */

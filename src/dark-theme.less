@@ -1,0 +1,10 @@
+// as of 2019-08-23 Slack official slack-kit-styles.css
+// uses css variables for core colors, and already includes a colorset for dark theme.
+// It's now just a matter of enabling the color overrides so we'll do just that
+@import (inline) 'official-variables.css';
+
+// Meanwhile there are some parts Slack still didn't address
+// (which explains why they didn't release the dark mode feature officially just yet)
+// So we'll fix it manually here.
+
+@import (inline) 'overrides.css';

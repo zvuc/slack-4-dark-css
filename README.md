@@ -1,3 +1,8 @@
+> ### 🎊🎉 The End Is Here 🎊🎉
+> On September 13, 2019 (or some time near depending on your timezone) Slack finally launched official dark mode support for browser and desktop clients. (https://twitter.com/SlackHQ/status/1172165133956603904) You can change the settings now in-app, from Themes in Preferences. Thanks Slack!
+
+---
+
 > ### ⚠️ Almost-end-of-life notice:
 > As of August 23, 2019 (or some time near), Slack seems to have updated their stylesheet to use CSS variables in colors instead of using static ones, perhaps as if to lay out the foundation for themable 'dark mode' support. I've also found that they already include an alternative color palette for dark theme! Which essentially brings official support for dark mode for desktop and web—just not announced for public yet. 
 > So until that day finally comes, this theme will continue to exist but in a much more simplified form, where we just enable the dark theme color palette. Also keeps some little overrides for some parts that seemingly are still WIP darkification by Slack team.
